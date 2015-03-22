@@ -1,7 +1,7 @@
 {
   "name": "levelgraph-n3-import",
   "version": "0.0.1",
-  "description": "A tool for importing n3 files into a levelgraph db",
+  "description": "CLI tool for importing n3 files into a levelgraph db",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
