@@ -1,0 +1,22 @@
+{
+  "name": "levelgraph-n3-import",
+  "version": "0.0.1",
+  "description": "A tool for importing n3 files into a levelgraph db",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/transcranial/levelgraph-n3-import"
+  },
+  "author": "Leon Chen <lchen3@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "levelgraph-n3-import": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/transcranial/levelgraph-n3-import/issues"
+  },
+  "homepage": "https://github.com/transcranial/levelgraph-n3-import"
+}
