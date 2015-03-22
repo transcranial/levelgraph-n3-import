@@ -5,6 +5,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "levelgraph",
+    "levelgraph-n3",
+    "import data",
+    "rdf",
+    "turtle",
+    "linked data",
+    "n3",
+    "nt",
+    "n-triples",
+    "n-quads"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/transcranial/levelgraph-n3-import"
@@ -13,10 +25,18 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "levelgraph-n3-import": "index.js"
+    "levelgraph-n3-import": "import.js"
   },
   "bugs": {
     "url": "https://github.com/transcranial/levelgraph-n3-import/issues"
   },
-  "homepage": "https://github.com/transcranial/levelgraph-n3-import"
+  "homepage": "https://github.com/transcranial/levelgraph-n3-import",
+  "dependencies": {
+    "cli": "^0.6.5",
+    "glob": "^5.0.3",
+    "levelgraph": "^0.10.2",
+    "levelgraph-n3": "^0.4.0",
+    "mkdirp": "^0.5.0",
+    "progress-stream": "^1.0.1"
+  }
 }
